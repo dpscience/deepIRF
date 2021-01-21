@@ -16,4 +16,14 @@ Copyright (c) 2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All rights 
 
 ## ``preliminary results``
 
-![preliminary results](preliminary results/preliminary results on 60-Co.png)
+### goal and principle ...
+
+Can we correct for the uncertainties inherently produced by the photomultiplier tubes?
+
+* 1 Mio. pulse-pairs recorded from a 60-Co isotope have been stored together with the obtained timing difference between them, i.e. the PMT uncertainty
+* 70% have been used for training the model
+* 30% have been used to test the trained model
+* the results show that in principle deep learning can significantly reduce the uncertainty originating from the PMTs 
+* (red curve = initial data, blue curve = corrected)
+
+![preliminary results](/preliminary%20results/preliminary%20results%20on%2060-Co.png)
