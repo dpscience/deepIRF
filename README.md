@@ -18,14 +18,14 @@ Copyright (c) 2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All rights 
 
 ### Goal ...
 
-Are we able to correct for the timing uncertainties inherently produced by the photomultiplier tubes?
+Is it generally possible to correct for the timing uncertainties inherently produced by the photomultiplier tubes?
 
 ### Principle ...
 
-* 1 Mio. pulse-pairs recorded from an isotope 60-Co have been stored along with the obtained timing difference, i.e. the PMT uncertainty between them 
+* 1 Mio. pulse-pairs recorded from an isotope 60-Co have been stored along with the obtained timing differences (target/label value), i.e. the PMT uncertainty between them 
 * 70 % of the pulse-pairs have been used for training the model
-* subsequently, 30 % of the pulse-pairs have been used to test the trained model
-* the results indicate that in principle deep learning can significantly reduce the uncertainty originating from the PMTs 
-* see figure: blue curve = initial data, red curve = deepIRF-corrected initial data
+* the other 30 % of the pulse-pairs have been used to test the trained model
+* the results as shown in the figure below indicate that in principle deep learning can significantly reduce the uncertainty originating from the PMTs 
+* blue curve = initial "unseen" data (30 %), red curve = deepIRF-corrected initial "unseen" data (30 %)
 
 ![preliminary results](/preliminary%20results/preliminary%20results%20on%2060-Co.png)
