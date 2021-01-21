@@ -10,7 +10,7 @@ Support this project and keep always updated by [following on github](https://gi
 
 ![badge-language](https://img.shields.io/badge/language-Python-blue)
 
-Copyright (c) 2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All rights reserved.<br><br>
+Copyright (c) 2021 Danny Petschke (danny.petschke@uni-wuerzburg.de). All rights reserved.<br>
 
 <b>deepIRF</b> - A deep learning approach for reverse-broadening the inherent timing resolution (IRF) in lifetime spectra originating from photomultiplier tubes. 
 
