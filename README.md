@@ -24,6 +24,6 @@ Can we correct for the uncertainties inherently produced by the photomultiplier 
 * 70% have been used for training the model
 * 30% have been used to test the trained model
 * the results show that in principle deep learning can significantly reduce the uncertainty originating from the PMTs 
-* (red curve = initial data, blue curve = corrected)
+* (blue curve = initial data, red curve = deepIRF-corrected initial data)
 
 ![preliminary results](/preliminary%20results/preliminary%20results%20on%2060-Co.png)
